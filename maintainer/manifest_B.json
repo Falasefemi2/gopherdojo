@@ -1,0 +1,100 @@
+[
+  {
+    "id": "015",
+    "dir": "015_recursion",
+    "mode": "test",
+    "hint": "Give every recursive call a base case and a strictly smaller subproblem.",
+    "topic": "Recursion"
+  },
+  {
+    "id": "016",
+    "dir": "016_range_builtins",
+    "mode": "test",
+    "hint": "Let range hand you indexes, map keys, or decoded runes instead of indexing by hand.",
+    "topic": "Range over Built-in Types"
+  },
+  {
+    "id": "017",
+    "dir": "017_pointers",
+    "mode": "test",
+    "hint": "Take an address with & and write through it with *, but check for nil first.",
+    "topic": "Pointers"
+  },
+  {
+    "id": "018",
+    "dir": "018_strings_runes",
+    "mode": "test",
+    "hint": "Bytes and code points disagree as soon as the text leaves ASCII.",
+    "topic": "Strings and Runes"
+  },
+  {
+    "id": "019",
+    "dir": "019_structs",
+    "mode": "test",
+    "hint": "Assigning or passing a struct copies its fields, so return the changed copy.",
+    "topic": "Structs"
+  },
+  {
+    "id": "020",
+    "dir": "020_methods",
+    "mode": "test",
+    "hint": "Choose the receiver form that matches whether the caller should see the change.",
+    "topic": "Methods"
+  },
+  {
+    "id": "021",
+    "dir": "021_interfaces",
+    "mode": "test",
+    "hint": "Declare the behavior you need and let concrete types satisfy it implicitly.",
+    "topic": "Interfaces"
+  },
+  {
+    "id": "022",
+    "dir": "022_enums",
+    "mode": "test",
+    "hint": "Pair an iota block with a String method and handle values outside the range.",
+    "topic": "Enums"
+  },
+  {
+    "id": "023",
+    "dir": "023_struct_embedding",
+    "mode": "test",
+    "hint": "An embedded type's exported fields and methods are promoted to the outer struct.",
+    "topic": "Struct Embedding"
+  },
+  {
+    "id": "024",
+    "dir": "024_generics",
+    "mode": "test",
+    "hint": "Constrain the type parameter to the operations you actually perform, then instantiate with more than one type.",
+    "topic": "Generics"
+  },
+  {
+    "id": "025",
+    "dir": "025_range_iterators",
+    "mode": "test",
+    "hint": "Return a closure that calls yield and stops as soon as yield reports false.",
+    "topic": "Range over Iterators"
+  },
+  {
+    "id": "026",
+    "dir": "026_errors",
+    "mode": "test",
+    "hint": "Return sentinel errors and add context with wrapping so errors.Is still matches.",
+    "topic": "Errors"
+  },
+  {
+    "id": "027",
+    "dir": "027_custom_errors",
+    "mode": "test",
+    "hint": "Carry structured failure data in your own error type and unwrap it with errors.As.",
+    "topic": "Custom Errors"
+  },
+  {
+    "id": "028",
+    "dir": "028_goroutines",
+    "mode": "test",
+    "hint": "Start a bounded set of goroutines and wait for all of them before reading the result.",
+    "topic": "Goroutines"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "071",
+    "dir": "071_embed",
+    "mode": "test",
+    "hint": "Attach //go:embed to a string variable and return that variable unchanged.",
+    "topic": "Embed Directive"
+  },
+  {
+    "id": "072",
+    "dir": "072_testing_benchmarking",
+    "mode": "test",
+    "hint": "Put the loop in SumSquares so both the table test and the b.N benchmark exercise it.",
+    "topic": "Testing and Benchmarking"
+  },
+  {
+    "id": "073",
+    "dir": "073_cmdline_arguments",
+    "mode": "test",
+    "hint": "Trim and parse each argument after the program name, failing on the first bad value.",
+    "topic": "Command-Line Arguments"
+  },
+  {
+    "id": "074",
+    "dir": "074_cmdline_flags",
+    "mode": "test",
+    "hint": "Build a private FlagSet with ContinueOnError, silence its output, then parse the slice.",
+    "topic": "Command-Line Flags"
+  },
+  {
+    "id": "075",
+    "dir": "075_cmdline_subcommands",
+    "mode": "test",
+    "hint": "Switch on the first argument and write every result through the io.Writer parameter.",
+    "topic": "Command-Line Subcommands"
+  },
+  {
+    "id": "076",
+    "dir": "076_env_vars",
+    "mode": "test",
+    "hint": "Treat an empty environment value the same as an unset one and fall back.",
+    "topic": "Environment Variables"
+  },
+  {
+    "id": "077",
+    "dir": "077_logging",
+    "mode": "test",
+    "hint": "Create a logger with no prefix and zero flags so only your line is written.",
+    "topic": "Logging"
+  },
+  {
+    "id": "078",
+    "dir": "078_http_client",
+    "mode": "test",
+    "hint": "Get the URL, defer closing the body, read it fully, and return the status without judging it.",
+    "topic": "HTTP Client"
+  },
+  {
+    "id": "079",
+    "dir": "079_http_server",
+    "mode": "test",
+    "hint": "Check the method, resolve the name query, then set the header before encoding JSON.",
+    "topic": "HTTP Server"
+  },
+  {
+    "id": "080",
+    "dir": "080_tcp_server",
+    "mode": "test",
+    "hint": "Accept one connection, copy one newline-terminated line back, and close the connection.",
+    "topic": "TCP Server"
+  },
+  {
+    "id": "081",
+    "dir": "081_context",
+    "mode": "test",
+    "hint": "Select between ctx.Done() and time.After, returning ctx.Err() when cancellation wins.",
+    "topic": "Context"
+  },
+  {
+    "id": "082",
+    "dir": "082_spawning_processes",
+    "mode": "test",
+    "hint": "Start the command with stdout captured, call Wait, then trim the buffer.",
+    "topic": "Spawning Processes"
+  },
+  {
+    "id": "083",
+    "dir": "083_execing_processes",
+    "mode": "test",
+    "hint": "Use CombinedOutput for go env GOOS and trim the combined bytes.",
+    "topic": "Exec'ing Processes"
+  },
+  {
+    "id": "084",
+    "dir": "084_signals",
+    "mode": "test",
+    "hint": "Map the well-known signals with a switch and take one value from the injected channel.",
+    "topic": "Signals"
+  },
+  {
+    "id": "085",
+    "dir": "085_exit",
+    "mode": "test",
+    "hint": "Map nil to 0, errors.Is(errUsage) to 2, and everything else to 1.",
+    "topic": "Exit"
+  }
+]

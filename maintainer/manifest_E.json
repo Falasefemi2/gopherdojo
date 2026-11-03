@@ -1,0 +1,100 @@
+[
+  {
+    "id": "057",
+    "dir": "057_time",
+    "mode": "test",
+    "hint": "Shift and compare fixed UTC instants with Add, Sub and Before.",
+    "topic": "Time"
+  },
+  {
+    "id": "058",
+    "dir": "058_epoch",
+    "mode": "test",
+    "hint": "Convert between time.Time and Unix seconds, milliseconds and nanoseconds, then back.",
+    "topic": "Epoch"
+  },
+  {
+    "id": "059",
+    "dir": "059_time_formatting",
+    "mode": "test",
+    "hint": "Use the reference layout 2006-01-02 15:04 with Format and time.Parse.",
+    "topic": "Time Formatting / Parsing"
+  },
+  {
+    "id": "060",
+    "dir": "060_random_numbers",
+    "mode": "test",
+    "hint": "Create a private generator from a seed and draw bounded values with Intn.",
+    "topic": "Random Numbers"
+  },
+  {
+    "id": "061",
+    "dir": "061_number_parsing",
+    "mode": "test",
+    "hint": "Turn strings into ints, floats and bools with strconv, handling errors.",
+    "topic": "Number Parsing"
+  },
+  {
+    "id": "062",
+    "dir": "062_url_parsing",
+    "mode": "test",
+    "hint": "Parse a raw URL and read its scheme, host, path and query values.",
+    "topic": "URL Parsing"
+  },
+  {
+    "id": "063",
+    "dir": "063_sha256",
+    "mode": "test",
+    "hint": "Hash bytes with sha256.Sum256 and render the array as lowercase hex.",
+    "topic": "SHA256 Hashes"
+  },
+  {
+    "id": "064",
+    "dir": "064_base64",
+    "mode": "test",
+    "hint": "Encode and decode with both the standard and URL-safe base64 alphabets.",
+    "topic": "Base64 Encoding"
+  },
+  {
+    "id": "065",
+    "dir": "065_reading_files",
+    "mode": "test",
+    "hint": "Read a whole file from a path and pass errors back to the caller.",
+    "topic": "Reading Files"
+  },
+  {
+    "id": "066",
+    "dir": "066_writing_files",
+    "mode": "test",
+    "hint": "Write a whole file, replacing old contents, and surface write errors.",
+    "topic": "Writing Files"
+  },
+  {
+    "id": "067",
+    "dir": "067_line_filters",
+    "mode": "test",
+    "hint": "Scan an io.Reader line by line and write matching lines to an io.Writer.",
+    "topic": "Line Filters"
+  },
+  {
+    "id": "068",
+    "dir": "068_file_paths",
+    "mode": "test",
+    "hint": "Join, split and clean paths with path/filepath so the OS separator is respected.",
+    "topic": "File Paths"
+  },
+  {
+    "id": "069",
+    "dir": "069_directories",
+    "mode": "test",
+    "hint": "Create nested directories with MkdirAll and list a directory with ReadDir.",
+    "topic": "Directories"
+  },
+  {
+    "id": "070",
+    "dir": "070_temp_files",
+    "mode": "test",
+    "hint": "Create unique scratch files and folders from a pattern and clean them up.",
+    "topic": "Temporary Files and Directories"
+  }
+]

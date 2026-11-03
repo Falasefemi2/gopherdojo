@@ -1,0 +1,100 @@
+[
+  {
+    "id": "043",
+    "dir": "043_atomic_counters",
+    "mode": "test",
+    "hint": "Use sync/atomic so concurrent increments never lose an update, then wait for every goroutine.",
+    "topic": "Atomic Counters"
+  },
+  {
+    "id": "044",
+    "dir": "044_mutexes",
+    "mode": "test",
+    "hint": "Guard the map's read-modify-write sequence with a sync.Mutex and join all workers.",
+    "topic": "Mutexes"
+  },
+  {
+    "id": "045",
+    "dir": "045_stateful_goroutines",
+    "mode": "test",
+    "hint": "Let one owner goroutine hold the running total and answer each request over a reply channel.",
+    "topic": "Stateful Goroutines"
+  },
+  {
+    "id": "046",
+    "dir": "046_sorting",
+    "mode": "test",
+    "hint": "Copy the slice before calling sort.Ints or sort.Strings so the caller's order survives.",
+    "topic": "Sorting"
+  },
+  {
+    "id": "047",
+    "dir": "047_sorting_functions",
+    "mode": "test",
+    "hint": "Pass a less function to sort.Slice and break equal lengths by comparing names.",
+    "topic": "Sorting by Functions"
+  },
+  {
+    "id": "048",
+    "dir": "048_panic",
+    "mode": "test",
+    "hint": "Panic with the exact messages and let the test recover the value instead of crashing.",
+    "topic": "Panic"
+  },
+  {
+    "id": "049",
+    "dir": "049_defer",
+    "mode": "test",
+    "hint": "Deferred calls run last-in-first-out; capture the loop variable as an argument.",
+    "topic": "Defer"
+  },
+  {
+    "id": "050",
+    "dir": "050_recover",
+    "mode": "test",
+    "hint": "Recover the divide-by-zero panic in a deferred function and turn it into an error.",
+    "topic": "Recover"
+  },
+  {
+    "id": "051",
+    "dir": "051_string_functions",
+    "mode": "test",
+    "hint": "The strings package already has Contains, Count, Index, Join, Repeat, Split and friends.",
+    "topic": "String Functions"
+  },
+  {
+    "id": "052",
+    "dir": "052_string_formatting",
+    "mode": "test",
+    "hint": "Each fmt verb exposes a different view of the same value, so match the expected text exactly.",
+    "topic": "String Formatting"
+  },
+  {
+    "id": "053",
+    "dir": "053_text_templates",
+    "mode": "test",
+    "hint": "Parse the template, execute it into a bytes.Buffer, and keep the rendered bytes verbatim.",
+    "topic": "Text Templates"
+  },
+  {
+    "id": "054",
+    "dir": "054_regular_expressions",
+    "mode": "test",
+    "hint": "One anchored pattern validates and parses; an unanchored one can rewrite every pair.",
+    "topic": "Regular Expressions"
+  },
+  {
+    "id": "055",
+    "dir": "055_json",
+    "mode": "test",
+    "hint": "Struct tags control JSON keys, omitempty drops empty fields, and Unmarshal ignores unknown keys.",
+    "topic": "JSON"
+  },
+  {
+    "id": "056",
+    "dir": "056_xml",
+    "mode": "test",
+    "hint": "XML tags name the root, attributes and child elements; round-trip the same struct.",
+    "topic": "XML"
+  }
+]

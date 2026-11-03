@@ -1,0 +1,100 @@
+[
+  {
+    "id": "029",
+    "dir": "029_channels",
+    "mode": "test",
+    "hint": "Send and receive on an unbuffered channel so the sender and receiver rendezvous.",
+    "topic": "Channels"
+  },
+  {
+    "id": "030",
+    "dir": "030_channel_buffering",
+    "mode": "test",
+    "hint": "Give the channel a capacity so sends can complete before a receiver arrives.",
+    "topic": "Channel Buffering"
+  },
+  {
+    "id": "031",
+    "dir": "031_channel_sync",
+    "mode": "test",
+    "hint": "Close a done channel after the work finishes and wait on it before reading the result.",
+    "topic": "Channel Synchronization"
+  },
+  {
+    "id": "032",
+    "dir": "032_channel_directions",
+    "mode": "test",
+    "hint": "Pass send-only and receive-only channel parameters and close the channel from the producer.",
+    "topic": "Channel Directions"
+  },
+  {
+    "id": "033",
+    "dir": "033_select",
+    "mode": "test",
+    "hint": "A select only takes cases whose channel operation can proceed right now.",
+    "topic": "Select"
+  },
+  {
+    "id": "034",
+    "dir": "034_timeouts",
+    "mode": "test",
+    "hint": "Race the value channel against time.After and let the bool report which one won.",
+    "topic": "Timeouts"
+  },
+  {
+    "id": "035",
+    "dir": "035_nonblocking_channels",
+    "mode": "test",
+    "hint": "A select with a default case falls through instead of waiting on a channel.",
+    "topic": "Non-Blocking Channel Operations"
+  },
+  {
+    "id": "036",
+    "dir": "036_closing_channels",
+    "mode": "test",
+    "hint": "Close after the last send; the comma-ok form reports when the stream has ended.",
+    "topic": "Closing Channels"
+  },
+  {
+    "id": "037",
+    "dir": "037_range_channels",
+    "mode": "test",
+    "hint": "Range over the channel in a goroutine and let the sender close it when the run is done.",
+    "topic": "Range over Channels"
+  },
+  {
+    "id": "038",
+    "dir": "038_timers",
+    "mode": "test",
+    "hint": "A time.Timer fires once on its C channel; Stop or Reset it as the situation needs.",
+    "topic": "Timers"
+  },
+  {
+    "id": "039",
+    "dir": "039_tickers",
+    "mode": "test",
+    "hint": "Take exactly n values from the ticker channel and stop the ticker on the way out.",
+    "topic": "Tickers"
+  },
+  {
+    "id": "040",
+    "dir": "040_worker_pools",
+    "mode": "test",
+    "hint": "Close the jobs channel when the work runs out and wait for the workers before closing results.",
+    "topic": "Worker Pools"
+  },
+  {
+    "id": "041",
+    "dir": "041_waitgroups",
+    "mode": "test",
+    "hint": "Add before starting each goroutine, Done when it finishes, Wait before reading the shared total.",
+    "topic": "WaitGroups"
+  },
+  {
+    "id": "042",
+    "dir": "042_rate_limiting",
+    "mode": "test",
+    "hint": "Wait for one tick before handling each item and preserve the original order.",
+    "topic": "Rate Limiting"
+  }
+]

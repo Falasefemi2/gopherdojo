@@ -1,0 +1,9 @@
+[
+  {
+    "id": "001",
+    "dir": "001_hello_world",
+    "mode": "test",
+    "hint": "fmt.Sprintf returns a string. For greet, handle the empty name before you format. For quoted, let %q do the escaping. For banner, the newlines are part of the format string.",
+    "topic": "Hello World"
+  }
+]

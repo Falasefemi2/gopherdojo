@@ -1,0 +1,100 @@
+[
+  {
+    "id": "001",
+    "dir": "001_hello_world",
+    "mode": "test",
+    "hint": "fmt.Sprintf returns a string. For greet, handle the empty name before you format. For quoted, let %q do the escaping. For banner, the newlines are part of the format string.",
+    "topic": "Hello World"
+  },
+  {
+    "id": "002",
+    "dir": "002_values",
+    "mode": "test",
+    "hint": "Money stays in integer cents; convert to float only inside the format call.",
+    "topic": "Values"
+  },
+  {
+    "id": "003",
+    "dir": "003_variables",
+    "mode": "test",
+    "hint": "Multiple assignment swaps values without a temporary variable.",
+    "topic": "Variables"
+  },
+  {
+    "id": "004",
+    "dir": "004_constants",
+    "mode": "test",
+    "hint": "Let iota number the bit flags; a typed constant keeps its type in every expression.",
+    "topic": "Constants"
+  },
+  {
+    "id": "005",
+    "dir": "005_for",
+    "mode": "test",
+    "hint": "Pick the loop form that fits: counter, condition, or infinite with break.",
+    "topic": "For"
+  },
+  {
+    "id": "006",
+    "dir": "006_if_else",
+    "mode": "test",
+    "hint": "An if can declare a short-lived variable before its condition.",
+    "topic": "If/Else"
+  },
+  {
+    "id": "007",
+    "dir": "007_switch",
+    "mode": "test",
+    "hint": "A tagless switch is an else-if chain; fallthrough continues into the next case.",
+    "topic": "Switch"
+  },
+  {
+    "id": "008",
+    "dir": "008_arrays",
+    "mode": "test",
+    "hint": "Arrays are values, so a function receives a copy of every element.",
+    "topic": "Arrays"
+  },
+  {
+    "id": "009",
+    "dir": "009_slices",
+    "mode": "test",
+    "hint": "append may reuse a backing array; make and copy give you independence.",
+    "topic": "Slices"
+  },
+  {
+    "id": "010",
+    "dir": "010_maps",
+    "mode": "test",
+    "hint": "v, ok := m[key] tells a missing key apart from a stored zero.",
+    "topic": "Maps"
+  },
+  {
+    "id": "011",
+    "dir": "011_functions",
+    "mode": "test",
+    "hint": "Have totalWithTax call subtotal instead of repeating the multiplication.",
+    "topic": "Functions"
+  },
+  {
+    "id": "012",
+    "dir": "012_multiple_returns",
+    "mode": "test",
+    "hint": "Return the ok flag last, and check the divisor before dividing.",
+    "topic": "Multiple Return Values"
+  },
+  {
+    "id": "013",
+    "dir": "013_variadics",
+    "mode": "test",
+    "hint": "A slice spread with nums... behaves exactly like listing its elements.",
+    "topic": "Variadic Functions"
+  },
+  {
+    "id": "014",
+    "dir": "014_closures",
+    "mode": "test",
+    "hint": "Declare the captured variable inside the factory so each closure gets its own.",
+    "topic": "Closures"
+  }
+]
