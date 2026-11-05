@@ -19,17 +19,32 @@ import "fmt"
 
 // subtotal returns qty * unitCents in cents.
 func subtotal(qty, unitCents int) int {
-	return 0
+	if qty <= 0 || unitCents <= 0 {
+		return 0
+	}
+	return qty * unitCents
 }
 
 // isBulk reports whether qty qualifies as a bulk order.
 func isBulk(qty int) bool {
-	return false
+	return qty >= 10
 }
 
 // receiptLine renders one receipt line.
 func receiptLine(qty, unitCents int) string {
-	return ""
+	if qty < 0 {
+		qty = 0
+	}
+	if unitCents < 0 {
+		unitCents = 0
+	}
+	total := subtotal(qty, unitCents)
+	line := fmt.Sprintf("%d x $%.2f = $%.2f",
+		qty, float64(unitCents)/100, float64(total)/100)
+	if isBulk(qty) {
+		line += " (bulk)"
+	}
+	return line
 }
 
 func main() {

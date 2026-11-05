@@ -1,9 +1,597 @@
 [
-  {
-    "id": "001",
-    "dir": "001_hello_world",
-    "mode": "test",
-    "hint": "fmt.Sprintf returns a string. For greet, handle the empty name before you format. For quoted, let %q do the escaping. For banner, the newlines are part of the format string.",
-    "topic": "Hello World"
-  }
+    {
+        "id":  1,
+        "name":  "001_hello_world",
+        "title":  "Hello World",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  2,
+        "name":  "002_values",
+        "title":  "Values",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  3,
+        "name":  "003_variables",
+        "title":  "Variables",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  4,
+        "name":  "004_constants",
+        "title":  "Constants",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  5,
+        "name":  "005_for",
+        "title":  "For",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  6,
+        "name":  "006_if_else",
+        "title":  "If/Else",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  7,
+        "name":  "007_switch",
+        "title":  "Switch",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  8,
+        "name":  "008_arrays",
+        "title":  "Arrays",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  9,
+        "name":  "009_slices",
+        "title":  "Slices",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  10,
+        "name":  "010_maps",
+        "title":  "Maps",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  11,
+        "name":  "011_functions",
+        "title":  "Functions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  12,
+        "name":  "012_multiple_returns",
+        "title":  "Multiple Return Values",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  13,
+        "name":  "013_variadics",
+        "title":  "Variadic Functions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  14,
+        "name":  "014_closures",
+        "title":  "Closures",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  15,
+        "name":  "015_recursion",
+        "title":  "Recursion",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  16,
+        "name":  "016_range_builtins",
+        "title":  "Range over Built-in Types",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  17,
+        "name":  "017_pointers",
+        "title":  "Pointers",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  18,
+        "name":  "018_strings_runes",
+        "title":  "Strings and Runes",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  19,
+        "name":  "019_structs",
+        "title":  "Structs",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  20,
+        "name":  "020_methods",
+        "title":  "Methods",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  21,
+        "name":  "021_interfaces",
+        "title":  "Interfaces",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  22,
+        "name":  "022_enums",
+        "title":  "Enums",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  23,
+        "name":  "023_struct_embedding",
+        "title":  "Struct Embedding",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  24,
+        "name":  "024_generics",
+        "title":  "Generics",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  25,
+        "name":  "025_range_iterators",
+        "title":  "Range over Iterators",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  26,
+        "name":  "026_errors",
+        "title":  "Errors",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  27,
+        "name":  "027_custom_errors",
+        "title":  "Custom Errors",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  28,
+        "name":  "028_goroutines",
+        "title":  "Goroutines",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  29,
+        "name":  "029_channels",
+        "title":  "Channels",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  30,
+        "name":  "030_channel_buffering",
+        "title":  "Channel Buffering",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  31,
+        "name":  "031_channel_sync",
+        "title":  "Channel Synchronization",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  32,
+        "name":  "032_channel_directions",
+        "title":  "Channel Directions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  33,
+        "name":  "033_select",
+        "title":  "Select",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  34,
+        "name":  "034_timeouts",
+        "title":  "Timeouts",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  35,
+        "name":  "035_nonblocking_channels",
+        "title":  "Non-Blocking Channel Operations",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  36,
+        "name":  "036_closing_channels",
+        "title":  "Closing Channels",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  37,
+        "name":  "037_range_channels",
+        "title":  "Range over Channels",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  38,
+        "name":  "038_timers",
+        "title":  "Timers",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  39,
+        "name":  "039_tickers",
+        "title":  "Tickers",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  40,
+        "name":  "040_worker_pools",
+        "title":  "Worker Pools",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  41,
+        "name":  "041_waitgroups",
+        "title":  "WaitGroups",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  42,
+        "name":  "042_rate_limiting",
+        "title":  "Rate Limiting",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  43,
+        "name":  "043_atomic_counters",
+        "title":  "Atomic Counters",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  44,
+        "name":  "044_mutexes",
+        "title":  "Mutexes",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  45,
+        "name":  "045_stateful_goroutines",
+        "title":  "Stateful Goroutines",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  46,
+        "name":  "046_sorting",
+        "title":  "Sorting",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  47,
+        "name":  "047_sorting_functions",
+        "title":  "Sorting by Functions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  48,
+        "name":  "048_panic",
+        "title":  "Panic",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  49,
+        "name":  "049_defer",
+        "title":  "Defer",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  50,
+        "name":  "050_recover",
+        "title":  "Recover",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  51,
+        "name":  "051_string_functions",
+        "title":  "String Functions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  52,
+        "name":  "052_string_formatting",
+        "title":  "String Formatting",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  53,
+        "name":  "053_text_templates",
+        "title":  "Text Templates",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  54,
+        "name":  "054_regular_expressions",
+        "title":  "Regular Expressions",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  55,
+        "name":  "055_json",
+        "title":  "JSON",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  56,
+        "name":  "056_xml",
+        "title":  "XML",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  57,
+        "name":  "057_time",
+        "title":  "Time",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  58,
+        "name":  "058_epoch",
+        "title":  "Epoch",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  59,
+        "name":  "059_time_formatting",
+        "title":  "Time Formatting / Parsing",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  60,
+        "name":  "060_random_numbers",
+        "title":  "Random Numbers",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  61,
+        "name":  "061_number_parsing",
+        "title":  "Number Parsing",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  62,
+        "name":  "062_url_parsing",
+        "title":  "URL Parsing",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  63,
+        "name":  "063_sha256",
+        "title":  "SHA256 Hashes",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  64,
+        "name":  "064_base64",
+        "title":  "Base64 Encoding",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  65,
+        "name":  "065_reading_files",
+        "title":  "Reading Files",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  66,
+        "name":  "066_writing_files",
+        "title":  "Writing Files",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  67,
+        "name":  "067_line_filters",
+        "title":  "Line Filters",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  68,
+        "name":  "068_file_paths",
+        "title":  "File Paths",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  69,
+        "name":  "069_directories",
+        "title":  "Directories",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  70,
+        "name":  "070_temp_files",
+        "title":  "Temporary Files and Directories",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  71,
+        "name":  "071_embed",
+        "title":  "Embed Directive",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  72,
+        "name":  "072_testing_benchmarking",
+        "title":  "Testing and Benchmarking",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  73,
+        "name":  "073_cmdline_arguments",
+        "title":  "Command-Line Arguments",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  74,
+        "name":  "074_cmdline_flags",
+        "title":  "Command-Line Flags",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  75,
+        "name":  "075_cmdline_subcommands",
+        "title":  "Command-Line Subcommands",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  76,
+        "name":  "076_env_vars",
+        "title":  "Environment Variables",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  77,
+        "name":  "077_logging",
+        "title":  "Logging",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  78,
+        "name":  "078_http_client",
+        "title":  "HTTP Client",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  79,
+        "name":  "079_http_server",
+        "title":  "HTTP Server",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  80,
+        "name":  "080_tcp_server",
+        "title":  "TCP Server",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  81,
+        "name":  "081_context",
+        "title":  "Context",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  82,
+        "name":  "082_spawning_processes",
+        "title":  "Spawning Processes",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  83,
+        "name":  "083_execing_processes",
+        "title":  "Exec\u0027ing Processes",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  84,
+        "name":  "084_signals",
+        "title":  "Signals",
+        "description":  "",
+        "track":  "core"
+    },
+    {
+        "id":  85,
+        "name":  "085_exit",
+        "title":  "Exit",
+        "description":  "",
+        "track":  "core"
+    }
 ]

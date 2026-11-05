@@ -18,17 +18,17 @@ import "fmt"
 
 // swap returns b, a.
 func swap(a, b int) (int, int) {
-	return a, b
+	return b, a
 }
 
 // rotate3 returns b, c, a.
 func rotate3(a, b, c int) (int, int, int) {
-	return a, b, c
+	return b, c, a
 }
 
 // swapReport describes the swap in one line.
 func swapReport(a, b int) string {
-	return ""
+	return fmt.Sprintf("before: %d, %d; after: %d, %d", a, b, b, a)
 }
 
 func main() {
